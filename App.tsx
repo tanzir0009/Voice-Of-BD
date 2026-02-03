@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Menu, X, Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin, ChevronRight, AlertCircle } from 'lucide-react';
@@ -13,6 +12,8 @@ import Join from './pages/Join';
 import Contact from './pages/Contact';
 
 // Components
+import SovereigntyStrategist from './components/SovereigntyStrategist';
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -186,6 +187,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
+        <SovereigntyStrategist />
         <Footer />
       </div>
     </Router>

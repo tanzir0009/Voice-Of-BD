@@ -2,6 +2,7 @@
   "name": "Voice of Bangladesh",
   "description": "A modern, professional political movement website dedicated to national sovereignty and people-first policy.",
   "requestFramePermissions": [
-    "geolocation"
+    "geolocation",
+    "microphone"
   ]
 }
